@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Dimas Rizal Ramadhani</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav>
+      <div>
+        <ul>
+          <li><a href="#about">Tentang saya</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img id="pfp" src="./assets/profile-pic.png" alt="Dimas profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Halo, saya...</p>
+        <h1 class="title">Dimas Rizal R.</h1>
+        <p class="section__text__p2">Mahasiswa</p>
+        <div id="socials-container">
+          <img
+            src="./assets/instagram.png"
+            alt="My instagram profile"
+            class="icon"
+            onclick="location.href='https://instagram.com/dimasrzal'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Dimmsam'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Mengenal lebih jauh</p>
+      <h1 class="title">Tentang Saya</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              Nama saya <b>Dimas Rizal Ramadhani</b> Saya lahir di Bandung, 11 Oktober 2006. Saat ini saya sedang
+              menempuh pendidikan di Politeknik Negeri Bandung, jurusan Teknik
+              Informatika. Mempunyai minat dalam bidang teknologi, harapannya
+              saya dapat sukses dalam bidang ini.
+            </p>
+          </div>
+          <h3 style="text-align: center; margin-top: 2rem; margin-bottom: 1rem;">Pendidikan</h3>
+          <div class="about-containers education-list">
+            <div class="details-container education-item">
+              <img
+                src="./assets/polban.jpg"
+                alt="Politeknik"
+                class="education-img"
+              />
+              <div class="education-title">Politeknik Negeri Bandung</div>
+              <div class="education-year">2024 - Sekarang</div>
+            </div>
+            <div class="details-container education-item">
+              <img
+                src="./assets/sma.jpg"
+                alt="SMA"
+                class="education-img"
+              />
+              <div class="education-title">SMA Negeri 3 Cimahi</div>
+              <div class="education-year">2021 - 2024</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Keterampilan saya</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Soft Skill</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Etos kerja</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Fleksibilitas</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Team Work</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Empati</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Hard Skill</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Office</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Proyek terbaru</p>
+      <h1 class="title">Proyek</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title" style="font-size: 1.5rem;">Proyek 1 - Pemanfaatan Aplikasi Perkantoran</h2>
+            <p style="margin-bottom: 2rem;"> Memanfaatkan aplikasi perkantoran seperti spreadsheet untuk mengolah data lowongan pekerjaan, untuk akhirnya dibuat visualisasi dalam bentuk poster.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/1B_B6_Poster Proyek.pdf')"
+              >
+                Hasil Poster
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title" style="font-size: 1.3rem; margin-top: 3rem;">Proyek 2 - Pengembangan Aplikasi Berbasis Library</h2>
+            <p style="margin-bottom: 2rem;"> Membuat aplikasi berbasis library graphics.h untuk game snake dalam bahasa C.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Ridhoss/PROYEK-2-B5-TOPIK2.git'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Proyek 3 - "
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title" style="font-size: 1.3rem; margin-top: 3rem;">Proyek 3 - Pengembangan Perangkat Lunak Berbasis Web</h2>
+            <p style="margin-bottom: 2rem;"> On-Going</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Hubungi saya</p>
+      <h1 class="title">Melalui Kontak</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:dimas.rizal.tif24@polban.ac.id">dimas.rizal.tif24@polban.ac.id</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/whatsapp.jpg"
+            alt="Whatsapp icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">Whatsapp</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Proyek 3 - Pengembangan Perangkat Lunak Berbasis Web</p>
+    </footer>
+  </body>
+</html>
